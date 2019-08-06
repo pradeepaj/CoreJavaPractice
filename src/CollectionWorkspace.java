@@ -8,7 +8,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.TreeSet;
  
-public class ArrayExample
+public class CollectionWorkspace
 {
     public static void main(String[] args) throws CloneNotSupportedException
     {
@@ -81,7 +81,11 @@ public class ArrayExample
     //https://javahungry.blogspot.com/2019/02/collection-programs-in-java-for-interview.html
     }  
    
-   
-        
+   ///Sort arraylist in decending order
+    //1-->Collections.sort(arraylist,Collections.reverseOrder());
+    //2-->Collections.sort(list);Collections.reverse(list);
+    // add element at particular index of ArrayList-->add(int index, Object element). 
+    //remove element-->remove(int index) -->remove(Object o)
+    
     }
 
